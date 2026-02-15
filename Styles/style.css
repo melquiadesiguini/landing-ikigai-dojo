@@ -352,5 +352,5 @@
       .cta-row{display: flex; justify-content: center;}
       .section-title{display: flex; justify-content: center;text-align: center;}
       .section-sub{display: flex; justify-content: center;text-align: center;}
-      .img{display: flex;gap: 12px;justify-content: center;width: 16%;}
+      .img{display: flex;gap: 12px;justify-content: center;width: 100vw;}
     }
