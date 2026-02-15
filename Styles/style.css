@@ -342,14 +342,14 @@
     }
 
     @media (max-width: 520px){
-      .hero{width: 100%;}
+      header.hero{ width: 100%; }
       .topbar{position: static;padding: 12px 0; top: 0}
       .grid{ grid-template-columns: 1fr; }
       .cards-3{ grid-template-columns: 1fr; }
       .row-2{ grid-template-columns: 1fr; }
       .topbar-inner{ padding: 0 4.5vw; }
       .headline{font-size: 1.6rem;line-height: 1.15;word-break: normal; padding: .5vh 0;justify-content: center;text-align: center;}
-      .cta-row{display: flex; justify-content: center;}
+      .cta-row{ justify-content: center; flex-wrap: wrap; }
       .section-title{display: flex; justify-content: center;text-align: center;}
       .section-sub{display: flex; justify-content: center;text-align: center;}
       .img{display: flex;gap: 12px;justify-content: center;width: 100%;}
