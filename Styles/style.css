@@ -340,7 +340,7 @@
       .topbar-inner{ padding: 0 4.5vw; }
       .headline{font-size: 1.6rem;line-height: 1.15;word-break: normal; padding: 10vh 0;}
       .hero{width: 100%;}
-      .cta-row{display: flex;
+      .cta-row{
   justify-content: center;   /* horizontal */
 }
     }
