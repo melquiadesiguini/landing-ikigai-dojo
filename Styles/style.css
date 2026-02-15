@@ -334,13 +334,12 @@
     }
 
     @media (max-width: 520px){
+      .topbar{position: sticky;}
       .grid{ grid-template-columns: 1fr; }
       .cards-3{ grid-template-columns: 1fr; }
       .row-2{ grid-template-columns: 1fr; }
       .topbar-inner{ padding: 0 4.5vw; }
       .headline{font-size: 1.6rem;line-height: 1.15;word-break: normal; padding: 10vh 0;}
       .hero{width: 100%;}
-      .cta-row{
-  justify-content: center;   /* horizontal */
-}
+      .cta-row{display: flex; justify-content: center;}
     }
