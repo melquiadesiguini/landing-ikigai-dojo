@@ -333,21 +333,14 @@
       text-align:center;
     }
 
-    @media (max-width: 520px) {
-  .topbar-inner{
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  .pill{
-    width: 100%;
-    font-size: .85rem;
-    padding: 8px 12px;
-  }
-  .headline{
+    @media (max-width: 900px){
+      .grid{ grid-template-columns: 1fr; }
+      .cards-3{ grid-template-columns: 1fr; }
+      .row-2{ grid-template-columns: 1fr; }
+      .topbar-inner{ padding: 0 4.5vw; }
+      .headline{
     font-size: 1.8rem;   /* antes era enorme para celular */
     line-height: 1.15;
     word-break: normal;
   }
-}
+    }
