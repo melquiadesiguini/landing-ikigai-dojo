@@ -15,7 +15,7 @@
 
     *{ box-sizing:border-box; }
     body{
-      margin:0;
+      margin:2rem;
       font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
       color: var(--text);
       background: radial-gradient(1200px 700px at 20% 10%, rgba(255,255,255,.12), transparent 55%),
@@ -35,6 +35,14 @@
       display:flex;
       align-items:center;
       padding: 32px 0;
+    }
+    img{
+      width: 16%;
+    }
+    .img{
+      display: flex;
+      gap: 12px;
+      justify-content: center;
     }
 
     .topbar{
@@ -344,4 +352,5 @@
       .cta-row{display: flex; justify-content: center;}
       .section-title{display: flex; justify-content: center;text-align: center;}
       .section-sub{display: flex; justify-content: center;text-align: center;}
+      .img{display: flex;gap: 12px;justify-content: center;}
     }
