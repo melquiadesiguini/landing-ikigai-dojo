@@ -345,4 +345,9 @@
     font-size: .85rem;
     padding: 8px 12px;
   }
+  .headline{
+    font-size: 1.8rem;   /* antes era enorme para celular */
+    line-height: 1.15;
+    word-break: normal;
+  }
 }
