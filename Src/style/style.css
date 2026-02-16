@@ -42,7 +42,7 @@
     .img{
       display: flex;
       gap: 12px;
-      justify-content: center;
+      justify-content: space-evenly;      
     }
 
     .topbar{
@@ -353,5 +353,5 @@
       .cta-row{ justify-content: center; flex-wrap: wrap; }
       .section-title{display: flex; justify-content: center;text-align: center;}
       .section-sub{display: flex; justify-content: center;text-align: center;}
-      .img{display: flex;gap: 12px;justify-content: center;width: 100%;}
+      .img{display: flex;gap: 12px;justify-content: space-evenly;width: 100%;}
     }
