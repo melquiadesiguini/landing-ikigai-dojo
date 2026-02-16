@@ -153,10 +153,11 @@
       transition: transform .12s ease, background .12s ease;
       cursor:pointer;
     }
-    .btn:hover{ transform: translateY(-1px); background: rgba(255,255,255,.14); }
+    .btn:hover{ transform: translateY(-2px); background: rgba(255,255,255,.14); }
     .btn.primary{
-      background: rgba(255,255,255,.18);
+      background: rgba(32, 69, 139, 0.507);
       border: 1px solid rgba(255,255,255,.22);
+      color: var(--text);
     }
     .btn:disabled{
       opacity:.65;
